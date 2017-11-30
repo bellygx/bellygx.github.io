@@ -8,6 +8,11 @@ body {
   text-align: center;
 }
 
+img {
+  padding-top: 10px;
+  border-radius: 70%;
+}
+
 main {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
