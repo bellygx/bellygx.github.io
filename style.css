@@ -1,0 +1,105 @@
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 12px;
+  font-family: Century;
+  color: black;
+  line-height: 1.5;
+  text-align: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 4px;
+}
+
+li {
+  display: inline;
+  padding: 5px;
+}
+
+a {
+  color: rgb(173,80,118);
+}
+
+a:visited {
+  color: rgb(99,94,160);
+}
+
+a:hover {
+  color: rgb(62,116,160);
+}
+
+a:active {
+  color: rgb(169,209,106);
+}
+
+h2 {
+  font-family: Garamond;
+  color: rgb(136,139,140);
+  text-align:center;
+}
+
+h3 {
+  font-family: Garamond;
+  color: rgb(164,175,178);
+}
+
+p {
+  text-align: center;
+}
+
+#experiences {
+  float: left;
+  border: 2px solid rgb(152,159,162);
+  padding: 10px 70px;
+  margin: 20px;
+}
+
+#experiences:hover {
+  background-color:#efefef;
+}
+
+#skills {
+  float: right;
+  border: 2px solid rgb(152,159,162);
+  padding: 10px 70px;
+  margin: 20px;
+}
+
+#skills p {
+  display: list-item;
+  list-style-type: none;
+  line-height: 0.8;
+  text-align: center;
+}
+
+#skills:hover {
+  background-color:#efefef;
+}
+
+#education {
+  border: 2px solid rgb(152,159,162);
+  margin: 20px;
+  padding: 10px;
+  text-align:center;
+}
+
+#education:hover {
+  background-color:#efefef;
+}
+
+#activities {
+  border: 2px solid rgb(152,159,162);
+  margin: 20px;
+  padding: 10px;
+}
+
+#activities:hover {
+  background-color:#efefef;
+}
+
+#skills:hover {
+  background-color:#efefef;
+}
