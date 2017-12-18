@@ -1,25 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Playfair+Display+SC|Satisfy');
+
+#wrapper {
+  margin-right: auto;
+  margin-left:  auto;
+  max-width: 960px;
+}
+
 body {
   max-width: 960px;
   margin: 0 auto;
   font-size: 12px;
-  font-family: Century;
+  font-family: "Playfair Display", serif;
   color: black;
   line-height: 1.5;
+  background-image: url("seigaiha.png");
   text-align: center;
-}
-
-img {
-  padding-top: 10px;
-  border-radius: 50%;
 }
 
 h1 {
   width: 200px;
-  font-family: Satisfy, cursive;
-  border: 4px rgb(136,139,140);
-  border-style:double;
+  font-family: "Satisfy", cursive;
+  border: 4px double rgb(136,139,140);
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
+
+#home img{
+  margin-top: 30px;
+  padding-top: 10px;
+  border-radius: 50%;
+  padding-bottom: 0px;
+}
+
+address p {
+  text-align: center;
 }
 
 main {
@@ -28,9 +43,31 @@ main {
   grid-gap: 4px;
 }
 
+#projects main {
+  grid-gap: 20px;
+}
+
+ul {
+  width: 300px;
+  background: rgba(215,218,219,0.3);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding: 10px;
+}
+
 li {
   display: inline;
-  padding: 5px;
+}
+
+li:after {
+  content:"\2217";
+  padding: 0 5px;
+}
+
+li:last-child:after{
+  content:"";
+  padding: 0px;
 }
 
 a {
@@ -50,24 +87,34 @@ a:active {
 }
 
 h2 {
-  font-family: Playfair Display SC, serif;
+  font-family: "Playfair Display SC", serif;
   color: rgb(136,139,140);
-  text-align:center;
+  text-align:left;
 }
 
 h3 {
-  font-family: Garamond;
   color: rgb(164,175,178);
+  text-align: left;
 }
 
-p {
+p{
+  text-align: left;
+}
+
+#home header {
   text-align: center;
+}
+
+#home img {
+  margin-top: 30px;
+  padding-top: 10px;
+  border-radius: 50%;
 }
 
 #experiences {
   float: left;
   border: 2px solid rgb(152,159,162);
-  padding: 10px 70px;
+  padding: 10px 30px;
   margin: 20px;
 }
 
@@ -78,7 +125,7 @@ p {
 #skills {
   float: right;
   border: 2px solid rgb(152,159,162);
-  padding: 10px 70px;
+  padding: 10px 30px;
   margin: 20px;
 }
 
@@ -86,7 +133,7 @@ p {
   display: list-item;
   list-style-type: none;
   line-height: 0.8;
-  text-align: center;
+  text-align: left;
 }
 
 #skills:hover {
@@ -96,8 +143,21 @@ p {
 #education {
   border: 2px solid rgb(152,159,162);
   margin: 20px;
-  padding: 10px;
-  text-align:center;
+  padding: 10px 30px;
+  text-align:left;
+}
+
+#education h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#education p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#education article {
+  padding-bottom: 20px;
 }
 
 #education:hover {
@@ -107,8 +167,23 @@ p {
 #activities {
   border: 2px solid rgb(152,159,162);
   margin: 20px;
-  padding: 10px;
+  padding: 10px 30px;
+  text-align: left;
 }
+
+#activities h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#activities p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#activities article {
+  padding-bottom: 20px;
+}
+
 
 #activities:hover {
   background-color:#efefef;
@@ -116,4 +191,32 @@ p {
 
 #skills:hover {
   background-color:#efefef;
+}
+
+#melancholia img {
+  float: left;
+  margin: 0 40px 10px 0;
+}
+
+#melancholia p {
+  padding: 10px;
+  border: 2px;
+  margin: 10px;
+}
+
+#enp {
+  padding-top: 50px;
+}
+
+#projects .video {
+  max-width: 500px;
+  float: left;
+  margin: 10px;
+  padding: 20px;
+}
+
+#projects .text {
+  max-width: 400px;
+  margin: 10px;
+  padding: 20px;
 }
