@@ -212,14 +212,7 @@ p{
   width: 400px;
   height: 320px;
   position: absolute;
-  top: 28.5%;
+  top: 31%;
   left: 55%;
   background-color: rgba(251, 251, 251, 0.55);
  }
-
-
-#projects p {
-  max-width: 400px;
-  margin: 10px;
-  padding: 20px;
-}
