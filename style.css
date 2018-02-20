@@ -118,8 +118,8 @@ p{
   margin: 20px;
 }
 
-#experiences:hover {
-  background-color: rgba(254, 254, 254,0.5);
+#experiences {
+  background-color: (251, 251, 251, 0.55);
 }
 
 #skills {
@@ -136,14 +136,15 @@ p{
   text-align: left;
 }
 
-#skills:hover {
-  background-color:#efefef;
+#skills {
+  background-color: rgba(251, 251, 251, 0.55);
 }
 
 #education {
   border: 2px solid rgb(152,159,162);
   margin: 20px;
   padding: 10px 30px;
+  background-color: rgba(251, 251, 251, 0.55);
   text-align:left;
 }
 
@@ -160,14 +161,11 @@ p{
   padding-bottom: 20px;
 }
 
-#education:hover {
-  background-color:#efefef;
-}
-
 #activities {
   border: 2px solid rgb(152,159,162);
   margin: 20px;
   padding: 10px 30px;
+   background-color: rgba(251, 251, 251, 0.55);
   text-align: left;
 }
 
@@ -182,15 +180,6 @@ p{
 
 #activities article {
   padding-bottom: 20px;
-}
-
-
-#activities:hover {
-  background-color:#efefef;
-}
-
-#skills:hover {
-  background-color:#efefef;
 }
 
 #melancholia img {
