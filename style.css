@@ -14,6 +14,7 @@ body {
   color: black;
   line-height: 1.5;
   background-image: url("bluebg.png");
+  opacity: 0.5;
   text-align: center;
 }
 
