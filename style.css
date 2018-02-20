@@ -114,17 +114,18 @@ p{
 
 #experiences {
   float: left;
-  border: 2px solid rgb(152,159,162);
+  border: 2px solid rgba(152,159,162,0.5);
   padding: 10px 30px;
   margin: 20px;
-  background-color: (251, 251, 251, 0.55);
+  background-color: rgba(251, 251, 251, 0.55);
 }
 
 #skills {
   float: right;
-  border: 2px solid rgb(152,159,162);
+  border: 2px solid rgba(152,159,162,0.5);
   padding: 10px 30px;
   margin: 20px;
+  background-color: rgba(251, 251, 251, 0.55);
 }
 
 #skills p {
@@ -134,12 +135,8 @@ p{
   text-align: left;
 }
 
-#skills {
-  background-color: rgba(251, 251, 251, 0.55);
-}
-
 #education {
-  border: 2px solid rgb(152,159,162);
+  border: 2px solid rgba(152,159,162,0.5);
   margin: 20px;
   padding: 10px 30px;
   background-color: rgba(251, 251, 251, 0.55);
@@ -160,7 +157,7 @@ p{
 }
 
 #activities {
-  border: 2px solid rgb(152,159,162);
+  border: 2px solid rgba(152,159,162,0.5);
   margin: 20px;
   padding: 10px 30px;
    background-color: rgba(251, 251, 251, 0.55);
