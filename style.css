@@ -177,6 +177,18 @@ p{
   padding-bottom: 20px;
 }
 
+.column {
+    float: left;
+}
+
+.left {
+    width: 75%;
+}
+
+.right {
+    width: 25%;
+}
+}
 #melancholia img {
   float: left;
   margin: 0 40px 10px 0;
