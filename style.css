@@ -178,7 +178,7 @@ p{
 }
 
 #melancholia {
-  top-padding: 50px;
+  padding-top: 50px;
 }
 
 #melancholia img {
@@ -228,7 +228,7 @@ p{
  }
 
 #projects h2 {
-  padding-top: 10px;
+  margin-top: -10px;
 }
 
 #projects p {
