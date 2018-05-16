@@ -188,12 +188,18 @@ p{
 
 #melancholia .textbox{
   width: 320px;
-  height: 220px;
+  height: 270px;
   position: absolute;
-  top: 27%;
+  top: 23.75%;
   left: 61%;
   background-color: rgba(251, 251, 251, 0.55);
  }
+
+#melancholia .text {
+  max-width: 400px;
+  margin: 10px;
+  padding: 10px 20px 0px 20px;
+}
 
 #melancholia p {
   padding: 10px;
