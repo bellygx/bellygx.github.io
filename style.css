@@ -190,8 +190,8 @@ p{
   width: 320px;
   height: 270px;
   position: absolute;
-  top: 23.75%;
-  left: 61%;
+  top: 23%;
+  left: 63%;
   background-color: rgba(251, 251, 251, 0.55);
  }
 
@@ -202,9 +202,8 @@ p{
 }
 
 #melancholia p {
-  padding: 10px;
+
   border: 2px;
-  margin: 10px;
 }
 
 #enp {
