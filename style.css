@@ -216,7 +216,7 @@ p{
   width: 400px;
   height: 490px;
   position: absolute;
-  top: 24%;
+  top: 23.75%;
   left: 53%;
   background-color: rgba(251, 251, 251, 0.55);
  }
@@ -226,6 +226,10 @@ p{
    margin: 10px;
    padding: 10px 20px 0px 20px;
  }
+
+#projects h2 {
+  padding-top: 10px;
+}
 
 #projects p {
   border: 2px;
