@@ -121,8 +121,7 @@ p{
 }
 
 #experiences h3 {
-      margin-block-start: 0em;
-      margin-block-end: 0em;
+  line-height: 0.5;
 }
 #skills {
   float: right;
